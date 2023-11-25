@@ -13,14 +13,14 @@ public class NewBehaviourScript : MonoBehaviour
     // Coroutine per gestire la comparsa e la scomparsa della finestra di dialogo
     IEnumerator GestisciFinestraDiDialogo()
     {
-        // Aspetta 10 secondi prima di far comparire la finestra
-        yield return new WaitForSeconds(10f);
+        // Aspetta 6 secondi prima di far comparire la finestra
+        yield return new WaitForSeconds(6f);
 
         // Attiva la finestra di dialogo
         gameObject.SetActive(true);
 
-        // Aspetta altri 10 secondi prima di far scomparire la finestra
-        yield return new WaitForSeconds(10f);
+        // Aspetta altri 6 secondi prima di far scomparire la finestra
+        yield return new WaitForSeconds(6f);
 
         // Disattiva la finestra di dialogo
         gameObject.SetActive(false);

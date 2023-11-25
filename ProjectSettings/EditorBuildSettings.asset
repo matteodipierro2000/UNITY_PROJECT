@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Supporter_opening_scene.unity
     guid: 478671591c4c5f343ac7f2c55564faad
   - enabled: 1
+    path: Assets/Scenes/village.unity
+    guid: d2809ab9b90eea7419d8d90d4c505d35
+  - enabled: 0
     path: Assets/Scenes/Patient_opening _scene.unity
     guid: 571a868eebed2144bb18c8443420b163
   m_configObjects: {}

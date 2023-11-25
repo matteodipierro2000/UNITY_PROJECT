@@ -7,17 +7,20 @@ public class Dialogue_1_Tutorial : MonoBehaviour
     // Metodo per avviare la finestra di dialogo
     void Start()
     {
-        // Avvia la coroutine per far sparire la finestra dopo 20 secondi
-        StartCoroutine(NascondiDopoTempo(6f));
+        // Avvia la coroutine per far comparire e scomparire la finestra
+        StartCoroutine(GestisciFinestraDiDialogo());
     }
 
-    // Coroutine per nascondere la finestra dopo un certo periodo di tempo
-    IEnumerator NascondiDopoTempo(float tempo)
+    // Coroutine per gestire la comparsa e la scomparsa della finestra di dialogo
+    IEnumerator GestisciFinestraDiDialogo()
     {
-        // Aspetta per il periodo di tempo specificato
-        yield return new WaitForSeconds(tempo);
+        // Attiva la finestra di dialogo
+        gameObject.SetActive(true);
 
-        // Rendi la finestra di dialogo non attiva (disabilita)
+        // Aspetta altri 6 secondi prima di far scomparire la finestra
+        yield return new WaitForSeconds(6f);
+
+        // Disattiva la finestra di dialogo
         gameObject.SetActive(false);
     }
 }
