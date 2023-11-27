@@ -28,19 +28,26 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void ShowNextDialog()
+ void ShowNextDialog()
+{
+    // Disattiva la finestra di dialogo corrente
+    if (currentDialogIndex < dialogWindows.Length)
     {
-        // Controlla se c'è un'altra finestra di dialogo successiva nell'array
-        if (currentDialogIndex < dialogWindows.Length - 1)
-        {
-            currentDialogIndex++;
-            dialogWindows[currentDialogIndex].SetActive(true);
-        }
-        else
-        {
-            // Se non ci sono altre finestre di dialogo nell'array, reimposta l'indice
-            currentDialogIndex = 0;
-        }
+        dialogWindows[currentDialogIndex].SetActive(false);
     }
+
+    // Incrementa l'indice della finestra di dialogo
+    currentDialogIndex++;
+
+    // Controlla se siamo arrivati alla fine dell'array delle finestre di dialogo
+    if (currentDialogIndex >= dialogWindows.Length)
+    {
+        // Se siamo alla fine, torniamo alla prima finestra di dialogo
+        currentDialogIndex = 0;
+    }
+
+    // Mostra la finestra di dialogo corrente
+    dialogWindows[currentDialogIndex].SetActive(true);
+}
 }
 
