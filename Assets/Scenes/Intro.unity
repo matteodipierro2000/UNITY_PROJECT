@@ -352,6 +352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogWindows:
   - {fileID: 1971499088}
+  - {fileID: 1971499088}
   - {fileID: 2003209047}
   - {fileID: 787923054}
   - {fileID: 731987520}
