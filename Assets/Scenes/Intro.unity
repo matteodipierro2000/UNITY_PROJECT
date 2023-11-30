@@ -210,7 +210,7 @@ PrefabInstance:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
       value: What a fool I am! I haven't even introduced myself yet. I'm Tom. Welcome
-        to the world of Skypiea
+        to the world of Skypiea, please press s in order to continue
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -351,7 +351,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogWindows:
-  - {fileID: 1971499088}
   - {fileID: 1971499088}
   - {fileID: 2003209047}
   - {fileID: 787923054}
