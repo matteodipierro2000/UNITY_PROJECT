@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        currentDialogIndex = 0; // Reimposta l'indice del dialogo a zero all'avvio del gioco
         ShowNextDialog(); // Mostra la prima finestra di dialogo all'avvio
     }
 
