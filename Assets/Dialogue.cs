@@ -1,53 +1,63 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Dialogue : MonoBehaviour
-{
-      public GameObject[] dialogWindows; // Array contenente le finestre di dialogo
+public class DialogueManager : MonoBehaviour
+
+    {
+    public GameObject[] dialogWindows; // Array contenente le finestre di dialogo
+    public string sceneToLoad; // Nome della scena da caricare
     private int currentDialogIndex = 0; // Indice della finestra di dialogo attuale
+    private bool isDialogueFinished = false; // Indica se il dialogo è terminato
 
     void Start()
     {
-        ShowNextDialog(); // All'avvio del gioco, mostra la prima finestra di dialogo
+        ShowNextDialog(); // Mostra la prima finestra di dialogo all'avvio
     }
 
     void Update()
     {
-        // Verifica se viene premuta la barra spaziale
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!isDialogueFinished && Input.GetKeyDown(KeyCode.Space))
         {
-            // Controlla se la finestra di dialogo corrente è attiva e la chiude
-            if (currentDialogIndex < dialogWindows.Length && dialogWindows[currentDialogIndex].activeSelf)
-            {
-                dialogWindows[currentDialogIndex].SetActive(false);
-
-                // Passa alla finestra di dialogo successiva
-                ShowNextDialog();
-            }
+            SkipDialog(); // Salta la finestra di dialogo corrente
+        }
+        else if (isDialogueFinished && Input.GetKeyDown(KeyCode.Space))
+        {
+            LoadNextScene(); // Cambia scena quando il dialogo è finito e premi la barra spaziatrice
         }
     }
 
- void ShowNextDialog()
-{
-    // Disattiva la finestra di dialogo corrente
-    if (currentDialogIndex < dialogWindows.Length)
+    void SkipDialog()
     {
-        dialogWindows[currentDialogIndex].SetActive(false);
+        if (currentDialogIndex < dialogWindows.Length && dialogWindows[currentDialogIndex].activeSelf)
+        {
+            dialogWindows[currentDialogIndex].SetActive(false);
+            ShowNextDialog();
+        }
+
+        if (currentDialogIndex >= dialogWindows.Length)
+        {
+            isDialogueFinished = true;
+        }
     }
 
-    // Incrementa l'indice della finestra di dialogo
-    currentDialogIndex++;
-
-    // Controlla se siamo arrivati alla fine dell'array delle finestre di dialogo
-    if (currentDialogIndex >= dialogWindows.Length)
+    void ShowNextDialog()
     {
-        // Se siamo alla fine, torniamo alla prima finestra di dialogo
-        currentDialogIndex = 0;
+        if (currentDialogIndex < dialogWindows.Length)
+        {
+            dialogWindows[currentDialogIndex].SetActive(true);
+            currentDialogIndex++;
+        }
     }
 
-    // Mostra la finestra di dialogo corrente
-    dialogWindows[currentDialogIndex].SetActive(true);
+    void LoadNextScene()
+    {
+        if (!string.IsNullOrEmpty(sceneToLoad))
+        {
+            SceneManager.LoadScene(sceneToLoad); // Carica la scena specificata nella variabile sceneToLoad
+        }
+        else
+        {
+            Debug.LogWarning("Il nome della scena non è stato specificato.");
+        }
+    }
 }
-}
-

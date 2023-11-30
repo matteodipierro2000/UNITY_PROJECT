@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 57, y: -32}
+  m_AnchoredPosition: {x: 57, y: 99}
   m_SizeDelta: {x: -1522.2549, y: -874.2747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &27697815
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 27697818}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Play, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
@@ -262,9 +262,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 27697813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc4b75eccc35ab04aa3e66a4b86df582, type: 3}
+  m_Script: {fileID: 11500000, guid: 11b53f869d54cd04b966a48658716996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneNameToLoad: PLAYER_SELECTION
 --- !u!1 &637643368
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,7 +487,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 56.08172
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -513,7 +514,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 880, y: 484, z: -90}
+  m_LocalPosition: {x: 977, y: 520, z: -90}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -553,7 +554,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 18, y: -19}
+  m_AnchoredPosition: {x: 18, y: 107}
   m_SizeDelta: {x: -1587.7412, y: -900.6331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &979607325
@@ -845,8 +846,8 @@ Transform:
   m_GameObject: {fileID: 1865930233}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -0, y: -0.0001, z: 0}
-  m_LocalScale: {x: 1913.3206, y: 1078.948, z: 0}
+  m_LocalPosition: {x: 18.3728, y: -20.0864, z: 0}
+  m_LocalScale: {x: 177.9927, y: 99.94043, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1235527246}
@@ -892,7 +893,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 207aedeb83696724ba37b342ebc2e39f, type: 2}
+  - {fileID: 2100000, guid: 022197aa0856fb846addd6459a14e05e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
