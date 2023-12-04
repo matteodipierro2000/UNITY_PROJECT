@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 63a4a51dce6f0244984db6737a99d882
   - enabled: 1
-    path: Assets/Scenes/stress.unity
+    path: Assets/Scenes/Find Tom.unity
     guid: d2809ab9b90eea7419d8d90d4c505d35
   - enabled: 0
     path: Assets/Scenes/Supporter_opening_scene.unity

@@ -248,7 +248,7 @@ MonoBehaviour:
   - {fileID: 1051232885}
   - {fileID: 1530560973}
   - {fileID: 448681089}
-  sceneToLoad: stress
+  sceneToLoad: Find Tom
 --- !u!4 &412151822
 Transform:
   m_ObjectHideFlags: 0
@@ -955,8 +955,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: de76d67d0ab88dc439b10b32370775ea, type: 3}
       propertyPath: m_Name
-      value: Peasant Nolant(Free Version)
+      value: Tom
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: de76d67d0ab88dc439b10b32370775ea, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cd29d18a40f3fb648928275cd121fb86, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

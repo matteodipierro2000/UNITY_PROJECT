@@ -189,6 +189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peasant Nolant(Free Version)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: de76d67d0ab88dc439b10b32370775ea, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cd29d18a40f3fb648928275cd121fb86, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
