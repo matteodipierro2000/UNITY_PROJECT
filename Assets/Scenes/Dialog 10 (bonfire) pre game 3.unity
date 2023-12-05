@@ -376,8 +376,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: To move within the game, use the arrow keys. To adjust your view, use
-        the mouse. To collect items, simply hover over them
+      value: But be careful, if you touch one of the fires, you'll return to the
+        starting point
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -588,9 +588,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: By now, your eyes should be accustomed to this new light. Behind me,
-        you can see our small village, but before we begin, I'll explain the basic
-        functionalities
+      value: Here we are at the bonfire, an important gathering point for us in the
+        world of Skypiea, but... I've already told you everything before, so let's
+        not get lost in chit-chat and move on to explaining the game
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -691,8 +691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: Great, now you're ready! I've marked on the map the exact location of
-        my house. Meet me there, and I'll explain what to do. Good luck!
+      value: But don't worry, I'm sure you'll make it this time too! See you later
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -871,8 +870,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: 'At the top right, you can find the map; it will be useful during the
-        game
+      value: 'This game involves escaping from a maze. Your character can move using
+        the arrow keys
 
 '
       objectReference: {fileID: 0}

@@ -376,8 +376,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: To move within the game, use the arrow keys. To adjust your view, use
-        the mouse. To collect items, simply hover over them
+      value: Oh no! Your life bar has decreased. As I mentioned earlier, you'll have
+        to face quizzes during this journey to proceed. But no panic, I'll provide
+        you with enough information to do it
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -528,7 +529,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6c0ef76c2965adc499e58d806720cb69, type: 2}
+  - {fileID: 2100000, guid: fcf49ad5a1c48b447bfebfc2dc9e6fdb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -588,9 +589,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: By now, your eyes should be accustomed to this new light. Behind me,
-        you can see our small village, but before we begin, I'll explain the basic
-        functionalities
+      value: Congratulations! I was sure you'd make it. After all, it was quite simple,
+        wasn't it?
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -691,8 +691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: Great, now you're ready! I've marked on the map the exact location of
-        my house. Meet me there, and I'll explain what to do. Good luck!
+      value: Meet me at the wood, where I'll help you regain your energies!
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -871,10 +870,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: 'At the top right, you can find the map; it will be useful during the
-        game
-
-'
+      value: As you saw earlier, you've unlocked your first of four memories. You're
+        making good progress on your journey
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name

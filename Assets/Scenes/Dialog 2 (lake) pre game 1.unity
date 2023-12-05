@@ -376,9 +376,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: To proceed, reach me at the point indicated on the map. By doing so,
-        you'll discover a new area in Skypiea. Once you find me, I'll explain the
-        next level
+      value: You must be good and uncover all the combinations. Remember, each object
+        on the cards represents something that will surely trigger a memory
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -529,7 +528,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: be83864ac3629e4448bf48d3f968d417, type: 2}
+  - {fileID: 2100000, guid: fcf49ad5a1c48b447bfebfc2dc9e6fdb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -589,8 +588,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: Congratulations! You found me, after all, it was easy, so you deserve
-        a reward. In the top left of the screen, you can notice the life bar
+      value: Here we are! This is our lake, our primary water resource. Everyone
+        comes here to relax and enjoy the beautiful scenery nature offers. But let's
+        get back to business
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -626,18 +626,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184477044, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4094011683184477044, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4094011683184477044, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4094011683184477044, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
-      propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184477044, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
@@ -703,7 +691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: See you later!
+      value: We'll meet after you've completed the level. Good luck!
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -882,10 +870,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: 'It''ll help you keep track of your progress in the game; always keep
-        it high to proceed to the next level
-
-'
+      value: Now, the first level of this journey awaits you. The game is called
+        memory and involves finding two identical cards
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
