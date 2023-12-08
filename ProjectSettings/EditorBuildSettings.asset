@@ -12,14 +12,170 @@ EditorBuildSettings:
     path: Assets/Scenes/PLAYER_SELECTION.unity
     guid: ac2dfa8fc0db1ce43a5b0099af108891
   - enabled: 1
+    path: Assets/Scenes/calm/Dialog 1 (house) c.unity
+    guid: 76b47d4563d3a864faeaae74d94eb975
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 2 (lake) pre game 1 c.unity
+    guid: c743d98c4debe974ca360a6aecd12738
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 3 (lake) post game 1 c.unity
+    guid: ef2e387a05233c540ba5a12054b81e54
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 4 (wood) pre quiz 1 c.unity
+    guid: 8bf297a0fe4073e4cbd077e75a6a8b7b
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 5 (wood) post quiz 1 c.unity
+    guid: 2005797dec0e0404e86b041c47a33455
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 6 (castle) pre game 2 c.unity
+    guid: adc423f47566d5c4fa07c8b422d14558
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 7 (castle) post game 2 c.unity
+    guid: 7731ba55bc18a4242b4c14328cb353b0
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 8 (wood) pre quiz 2 c.unity
+    guid: 986c59dffe0f0424191ada00936bce7a
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 9 (wood) post quiz 2 c.unity
+    guid: d81b68d88c0827e43becc8ef17dced30
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 10 (bonfire) pre game 3 c.unity
+    guid: 5afc65f4218388e439e26323bb9aa498
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 11 (bonfire) post game 3 c.unity
+    guid: 3571685781916da4eadd9a5c2515cc72
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 12 (wood) pre quiz 3 c.unity
+    guid: 5d0e61cfe6f42ea4d9c1a0f3ab754849
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 13 (wood) post quiz 3 c.unity
+    guid: ba89911dc19eaac4e98219b8e6b76be5
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 14 (farm) pre game 4 c.unity
+    guid: ac2e72fe96241fb4b873a7d991b46c92
+  - enabled: 1
+    path: Assets/Scenes/calm/Dialog 15 (farm) post game 4 c.unity
+    guid: f7df4346b9122ea4383cd1934bee5499
+  - enabled: 1
+    path: Assets/Scenes/calm/Find Tom c.unity
+    guid: 0f1ccbc6c704d174591f4e08d47ee261
+  - enabled: 1
+    path: Assets/Scenes/calm/Intro c.unity
+    guid: 3dd89b2fa689d7044917418453123533
+  - enabled: 1
+    path: Assets/Scenes/calm/Level 1 (lake) c.unity
+    guid: e081790f2613d394d8de08fa3bdec861
+  - enabled: 1
+    path: Assets/Scenes/calm/Level 2 (wood) c.unity
+    guid: b8c7cd0ecbdc17542b11049e9a9cd4db
+  - enabled: 1
+    path: Assets/Scenes/calm/Level 3 (castle) c.unity
+    guid: 843f8107bec2b1a4aa965f3b36e236bb
+  - enabled: 1
+    path: Assets/Scenes/calm/Level 4 (wood) c.unity
+    guid: 6c79897aa3d8c764fac0a74da8eb97a7
+  - enabled: 1
+    path: Assets/Scenes/calm/Level 5 (bonfire) c.unity
+    guid: 0a6c4c7b95ce14d439e86ee5420868ab
+  - enabled: 1
+    path: Assets/Scenes/calm/Level 6 (wood) c.unity
+    guid: dfc2cee6faec9c947931a0c0c57295fc
+  - enabled: 1
+    path: Assets/Scenes/calm/Level 7 (farm) c.unity
+    guid: 3a1667dcf2635a740b0c42dac07ae287
+  - enabled: 1
+    path: Assets/Scenes/calm/Tutorial c.unity
+    guid: 757bbbb61ead24a4ba046a2c462ae94c
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 1 (house).unity
+    guid: ad13b4539625e964da6647d29934daed
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 2 (lake) pre game 1.unity
+    guid: e8d68332aa8c2504a80868abb2c9dcd7
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 3 (lake) post game 1.unity
+    guid: 2d1edfdc2186d814e9680993c14efc86
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 4 (wood) pre quiz 1.unity
+    guid: dbb3753f1d4e66440a8bb4a8f3a65809
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 5 (wood) post quiz 1.unity
+    guid: 3a98a8472cda08646beb5d5ae8da2673
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 6 (castle) pre game 2.unity
+    guid: 432e84eb6c61abb40a76d32619385051
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 7 (castle) post game 2.unity
+    guid: 7ed0303d7f70b2749adad3cc335094c3
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 8 (wood) pre quiz 2.unity
+    guid: 35c746841569576408decc1e6255fa9b
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 9 (wood) post quiz 2.unity
+    guid: 10d14b20af0a01b4abae9e621cd564e2
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 10 (bonfire) pre game 3.unity
+    guid: 89d83d22d493dc241ba79a66e6590d78
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 11 (bonfire) post game 3.unity
+    guid: 9f0aa1589dc85fc43808cf656fc01bbc
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 12 (wood) pre quiz 3.unity
+    guid: 8999b7788cd095d48839c0258f592163
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 13 (wood) post quiz 3.unity
+    guid: 2ec0e7e7877580f44bf34a4e375483b9
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 14 (farm) pre game 4.unity
+    guid: 9303d953b5ef378488aad3df8f39b118
+  - enabled: 1
+    path: Assets/Scenes/Stress/Dialog 15 (farm) post game 4.unity
+    guid: 1dfd62cf14424ac47af09776c3efb5d1
+  - enabled: 1
+    path: Assets/Scenes/Stress/Find Tom.unity
+    guid: e7377d5560b7c544ba6e25cbfd1de02e
+  - enabled: 1
+    path: Assets/Scenes/Stress/Intro.unity
+    guid: 104455640a0236b4c9443990ee5ab727
+  - enabled: 1
+    path: Assets/Scenes/Stress/Level 1 (lake).unity
+    guid: feb3f910416d8254e965de0172963e3b
+  - enabled: 1
+    path: Assets/Scenes/Stress/Level 2 (wood).unity
+    guid: 709a1a5eb33f2e9429442d2d7b68d165
+  - enabled: 1
+    path: Assets/Scenes/Stress/Level 3 (castle).unity
+    guid: 98a2c3d81500e9648890708bb2e8430d
+  - enabled: 1
+    path: Assets/Scenes/Stress/Level 4 (wood).unity
+    guid: 5ff463aa91aa3b644bcffdeb261443ee
+  - enabled: 1
+    path: Assets/Scenes/Stress/Level 5 (bonfire).unity
+    guid: 12ed24dde2caf3c4ab7ce71492bb2c4b
+  - enabled: 1
+    path: Assets/Scenes/Stress/Level 6 (wood).unity
+    guid: 16de2fe57cd71f140805123a57d58277
+  - enabled: 1
+    path: Assets/Scenes/Stress/Level 7 (farm).unity
+    guid: 07cbcf8e03b30034b840f80fd8d69482
+  - enabled: 1
+    path: Assets/Scenes/Stress/Tutorial.unity
+    guid: 68663e7c5e875894dad34ad3f616a48f
+  - enabled: 0
     path: Assets/Scenes/Intro.unity
     guid: 63d0ebfe35b45ce4c9fccd52caef757d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tutorial.unity
     guid: 63a4a51dce6f0244984db6737a99d882
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Find Tom.unity
     guid: d2809ab9b90eea7419d8d90d4c505d35
+  - enabled: 0
+    path: Assets/Scenes/Level 1 (lake).unity
+    guid: 6be18271d32b2f7458c5b3654a6ede4c
+  - enabled: 0
+    path: Assets/Scenes/Dialog 4 (wood) pre quiz 1.unity
+    guid: aa1f4964e59045b498bb254339015ef2
   - enabled: 0
     path: Assets/Scenes/Supporter_opening_scene.unity
     guid: 478671591c4c5f343ac7f2c55564faad
