@@ -161,6 +161,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stress/Tutorial.unity
     guid: 68663e7c5e875894dad34ad3f616a48f
+  - enabled: 1
+    path: Assets/Scenes/Stress/memories.unity
+    guid: a12610f633f3b884e8f6336e9b3847a3
+  - enabled: 1
+    path: Assets/Scenes/Stress/maze.unity
+    guid: 03ece84580ea85f4cb8110a65354bd67
+  - enabled: 1
+    path: Assets/Scenes/Stress/mattoni.unity
+    guid: 26d7f14ae62914fbfa2c830cc77f52e4
+  - enabled: 1
+    path: Assets/Scenes/Stress/memory_game.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Stress/FlappyBird.unity
+    guid: c9bc35dde5c484a638232b8009f81a99
   - enabled: 0
     path: Assets/Scenes/Intro.unity
     guid: 63d0ebfe35b45ce4c9fccd52caef757d
