@@ -5771,7 +5771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcea9cc7ad476bf4e8de297222dca91e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitaMovimento: 9
+  velocitaMovimento: 5
   sensibilitaMouse: 2
   distanzaDaTerreno: 0.1
   layerTerreno:
