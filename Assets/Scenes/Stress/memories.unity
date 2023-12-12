@@ -435,11 +435,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24a5ce0d8169ae24ebf0867ca2412a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad0: 
-  sceneNameToLoad1: 
-  sceneNameToLoad2: 
-  sceneNameToLoad3: 
-  sceneNameToLoad4: 
+  sceneNameToLoad0: Find Tom
+  sceneNameToLoad1: Dialog 3 (lake) post game 1
+  sceneNameToLoad2: Dialog 7 (castle) post game 2
+  sceneNameToLoad3: Dialog 11 (bonfire) post game 3
+  sceneNameToLoad4: Dialog 15 (farm) post game 4
 --- !u!1 &520900380
 GameObject:
   m_ObjectHideFlags: 0
