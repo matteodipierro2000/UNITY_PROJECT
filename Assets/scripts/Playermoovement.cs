@@ -44,11 +44,12 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Seguire il personaggio con la camera
+ 
         if (Camera.main != null)
         {
-            Vector3 nuovaPosizioneCamera = transform.position - transform.forward * 7.0f + Vector3.up * 5.0f;
+            Vector3 nuovaPosizioneCamera = transform.position - transform.forward * 5.6f + Vector3.up * 5.0f;
             Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, nuovaPosizioneCamera, Time.deltaTime * 10.0f);
             Camera.main.transform.LookAt(transform.position + transform.forward * 30.0f);
         }
     }
-}
+} 
