@@ -446,7 +446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogWindows:
   - {fileID: 807103286}
-  sceneToLoad: Level 7 (farm) c
+  sceneToLoad: Level 7 (farm)
 --- !u!4 &412151822
 Transform:
   m_ObjectHideFlags: 0

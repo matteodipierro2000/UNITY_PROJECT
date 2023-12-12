@@ -10538,7 +10538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 280c742797176474f942b367122f18ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: Dialog 8 (wood) pre quiz 2 c
+  sceneNameToLoad: Dialog 8 (wood) pre quiz 2
 --- !u!1001 &457783341
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -248,7 +248,7 @@ MonoBehaviour:
   - {fileID: 1051232885}
   - {fileID: 1530560973}
   - {fileID: 448681089}
-  sceneToLoad: Find Tom c
+  sceneToLoad: Find Tom
 --- !u!4 &412151822
 Transform:
   m_ObjectHideFlags: 0

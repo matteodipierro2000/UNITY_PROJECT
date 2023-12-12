@@ -393,7 +393,7 @@ MonoBehaviour:
   dialogWindows:
   - {fileID: 807103286}
   - {fileID: 1051232885}
-  sceneToLoad: Level 6 (wood) c
+  sceneToLoad: Level 6 (wood)
 --- !u!4 &412151822
 Transform:
   m_ObjectHideFlags: 0

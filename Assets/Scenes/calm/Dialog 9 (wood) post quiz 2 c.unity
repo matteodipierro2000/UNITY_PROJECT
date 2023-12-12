@@ -281,7 +281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogWindows:
   - {fileID: 807103286}
-  sceneToLoad: Level 5 (bonfire) c
+  sceneToLoad: Level 5 (bonfire)
 --- !u!4 &412151822
 Transform:
   m_ObjectHideFlags: 0
@@ -857,8 +857,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
-      value: You were excellent! Congratulations! At this point, let's meet at the
-        bonfire to continue recovering your memories. See you later!
+      value: You were excellent! Congratulations! I hope it has been useful to you
+        to discover new things! At this point, let's meet at the bonfire to continue
+        recovering your memories. See you later!
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name

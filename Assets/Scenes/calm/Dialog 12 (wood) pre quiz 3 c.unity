@@ -1036,8 +1036,8 @@ PrefabInstance:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
       value: You made it! While I was waiting for you, I was immersed in admiring
-        the spectacle of nature. Anyway; while you answer these simple questions,
-        I'll continue to enjoy this sight
+        the spectacle of nature. Anyway; while you answer these simple questions
+        about stress, I'll continue to enjoy this sight!
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
