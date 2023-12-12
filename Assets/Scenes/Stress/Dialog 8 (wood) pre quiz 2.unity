@@ -320,7 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogWindows:
   - {fileID: 807103286}
-  sceneToLoad: Find Tom
+  sceneToLoad: Quiz_Meditation&Mindfulness
 --- !u!4 &412151822
 Transform:
   m_ObjectHideFlags: 0

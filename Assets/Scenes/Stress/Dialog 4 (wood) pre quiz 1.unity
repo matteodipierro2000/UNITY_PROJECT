@@ -206,7 +206,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.106
+  m_Value: 0.12
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -444,7 +444,7 @@ MonoBehaviour:
   - {fileID: 807103286}
   - {fileID: 1876626977}
   - {fileID: 393950418}
-  sceneToLoad: Find Tom
+  sceneToLoad: Quiz_StressReduction
 --- !u!4 &412151822
 Transform:
   m_ObjectHideFlags: 0
@@ -1217,7 +1217,7 @@ PrefabInstance:
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Text
       value: At this point, it's important to keep your nerves steady without letting
-        anxiety takes over, so we can proceed to discover new facets of past life?
+        stress takes over, so we can proceed to discover new facets of past life?
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name

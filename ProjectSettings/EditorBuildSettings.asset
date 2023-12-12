@@ -12,80 +12,80 @@ EditorBuildSettings:
     path: Assets/Scenes/PLAYER_SELECTION.unity
     guid: ac2dfa8fc0db1ce43a5b0099af108891
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 1 (house) c.unity
-    guid: 76b47d4563d3a864faeaae74d94eb975
-  - enabled: 1
+    path: Assets/Scenes/Calm/Dialog 1 (house) c.unity
+    guid: 31dfe7a16505b024fbc438fffa5ca9f3
+  - enabled: 0
     path: Assets/Scenes/calm/Dialog 2 (lake) pre game 1 c.unity
     guid: c743d98c4debe974ca360a6aecd12738
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 3 (lake) post game 1 c.unity
-    guid: ef2e387a05233c540ba5a12054b81e54
+    path: Assets/Scenes/Calm/Dialog 3 (lake) post game 1 c.unity
+    guid: d66d4335d240c87429d479c505939880
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 4 (wood) pre quiz 1 c.unity
-    guid: 8bf297a0fe4073e4cbd077e75a6a8b7b
+    path: Assets/Scenes/Calm/Dialog 4 (wood) pre quiz 1 c.unity
+    guid: de821265cf3b27a438b53d518cc738c4
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 5 (wood) post quiz 1 c.unity
-    guid: 2005797dec0e0404e86b041c47a33455
+    path: Assets/Scenes/Calm/Dialog 5 (wood) post quiz 1 c.unity
+    guid: d1a7654678831f84093354fea098ec64
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 6 (castle) pre game 2 c.unity
-    guid: adc423f47566d5c4fa07c8b422d14558
+    path: Assets/Scenes/Calm/Dialog 6 (castle) pre game 2 c.unity
+    guid: 4fd678f36c2c9794d83adb7b7f041230
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 7 (castle) post game 2 c.unity
-    guid: 7731ba55bc18a4242b4c14328cb353b0
+    path: Assets/Scenes/Calm/Dialog 7 (castle) post game 2 c.unity
+    guid: 451ad91812ec49648936f0566e55259d
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 8 (wood) pre quiz 2 c.unity
-    guid: 986c59dffe0f0424191ada00936bce7a
+    path: Assets/Scenes/Calm/Dialog 8 (wood) pre quiz 2 c.unity
+    guid: e2335e9beb8ee7147bfe205d03f9a8d6
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 9 (wood) post quiz 2 c.unity
-    guid: d81b68d88c0827e43becc8ef17dced30
+    path: Assets/Scenes/Calm/Dialog 9 (wood) post quiz 2 c.unity
+    guid: 164badb58af6a0045971088638daeda2
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 10 (bonfire) pre game 3 c.unity
-    guid: 5afc65f4218388e439e26323bb9aa498
+    path: Assets/Scenes/Calm/Dialog 10 (bonfire) pre game 3 c.unity
+    guid: bab8853d1e115754f9185bf18136bf5b
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 11 (bonfire) post game 3 c.unity
-    guid: 3571685781916da4eadd9a5c2515cc72
+    path: Assets/Scenes/Calm/Dialog 11 (bonfire) post game 3 c.unity
+    guid: fa502875ae2e2b047b66d1d3fe54fd91
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 12 (wood) pre quiz 3 c.unity
-    guid: 5d0e61cfe6f42ea4d9c1a0f3ab754849
+    path: Assets/Scenes/Calm/Dialog 12 (wood) pre quiz 3 c.unity
+    guid: dee30eefcd6883d44b5f28c8ab2ac6c4
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 13 (wood) post quiz 3 c.unity
-    guid: ba89911dc19eaac4e98219b8e6b76be5
+    path: Assets/Scenes/Calm/Dialog 13 (wood) post quiz 3 c.unity
+    guid: 5cd12f50e35bdf34487fe0b4f2838f9d
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 14 (farm) pre game 4 c.unity
-    guid: ac2e72fe96241fb4b873a7d991b46c92
+    path: Assets/Scenes/Calm/Dialog 14 (farm) pre game 4 c.unity
+    guid: 74751f7bf4abe9045a099ad174230044
   - enabled: 1
-    path: Assets/Scenes/calm/Dialog 15 (farm) post game 4 c.unity
-    guid: f7df4346b9122ea4383cd1934bee5499
+    path: Assets/Scenes/Calm/Dialog 15 (farm) post game 4 c.unity
+    guid: 20207dd7ffd7d6e4fb648e2a03d71d2f
   - enabled: 1
-    path: Assets/Scenes/calm/Find Tom c.unity
-    guid: 0f1ccbc6c704d174591f4e08d47ee261
+    path: Assets/Scenes/Calm/Find Tom c.unity
+    guid: 7a29e8cff2cce984299541ab95d29157
   - enabled: 1
-    path: Assets/Scenes/calm/Intro c.unity
-    guid: 3dd89b2fa689d7044917418453123533
+    path: Assets/Scenes/Calm/Intro c.unity
+    guid: defe2ed497a1509428a6dcb9021005cd
   - enabled: 1
-    path: Assets/Scenes/calm/Level 1 (lake) c.unity
-    guid: e081790f2613d394d8de08fa3bdec861
+    path: Assets/Scenes/Calm/Level 1 (lake) c.unity
+    guid: c3c92f51e0773ef4082a3563d7553726
   - enabled: 1
-    path: Assets/Scenes/calm/Level 2 (wood) c.unity
-    guid: b8c7cd0ecbdc17542b11049e9a9cd4db
+    path: Assets/Scenes/Calm/Level 2 (wood) c.unity
+    guid: 2a2e35223d5d2ba4d8e085dd4d1c8d70
   - enabled: 1
-    path: Assets/Scenes/calm/Level 3 (castle) c.unity
-    guid: 843f8107bec2b1a4aa965f3b36e236bb
+    path: Assets/Scenes/Calm/Level 3 (castle) c.unity
+    guid: 8a8a4432db4a38145860959f961c731e
   - enabled: 1
-    path: Assets/Scenes/calm/Level 4 (wood) c.unity
-    guid: 6c79897aa3d8c764fac0a74da8eb97a7
+    path: Assets/Scenes/Calm/Level 4 (wood) c.unity
+    guid: 1d46b2132a1a8804da87033aca21d76b
   - enabled: 1
-    path: Assets/Scenes/calm/Level 5 (bonfire) c.unity
-    guid: 0a6c4c7b95ce14d439e86ee5420868ab
+    path: Assets/Scenes/Calm/Level 5 (bonfire) c.unity
+    guid: a99896dbc773ac14c960a4c0499550e2
   - enabled: 1
-    path: Assets/Scenes/calm/Level 6 (wood) c.unity
-    guid: dfc2cee6faec9c947931a0c0c57295fc
+    path: Assets/Scenes/Calm/Level 6 (wood) c.unity
+    guid: 1698ef771be35b1489f41842d9bb0a91
   - enabled: 1
-    path: Assets/Scenes/calm/Level 7 (farm) c.unity
-    guid: 3a1667dcf2635a740b0c42dac07ae287
+    path: Assets/Scenes/Calm/Level 7 (farm) c.unity
+    guid: c6eee3116f614a9469f1c737a9c66862
   - enabled: 1
-    path: Assets/Scenes/calm/Tutorial c.unity
-    guid: 757bbbb61ead24a4ba046a2c462ae94c
+    path: Assets/Scenes/Calm/Tutorial c.unity
+    guid: ae690de7296bb5f43ae286c11708e36d
   - enabled: 1
     path: Assets/Scenes/Stress/Dialog 1 (house).unity
     guid: ad13b4539625e964da6647d29934daed
@@ -134,6 +134,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stress/Find Tom.unity
     guid: e7377d5560b7c544ba6e25cbfd1de02e
+  - enabled: 1
+    path: Assets/Scenes/Quiz_AnxietySympthoms.unity
+    guid: b66ac2cb81b1e44b8a3910c4338d202f
+  - enabled: 1
+    path: Assets/Scenes/Quiz_Meditation&Mindfulness.unity
+    guid: 905bafa0347e749199b966f68944c2af
+  - enabled: 1
+    path: Assets/Scenes/Quiz_Selfesteem.unity
+    guid: 0ab00801a1c6740b68482f7be1047082
+  - enabled: 1
+    path: Assets/Scenes/Quiz_StressReduction.unity
+    guid: 463acd95ee2ba436998e7db7c8c05893
+  - enabled: 1
+    path: Assets/Scenes/Quiz_StressSymptoms.unity
+    guid: 7db93eb3eb9c64c0787814cb2f1de4b4
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2f752806bc5dd4276996d5f2e316a128
+  - enabled: 1
+    path: Assets/Scenes/takeoff.unity
+    guid: 3260f7ade192bb74e880b4dc8fc7b587
   - enabled: 1
     path: Assets/Scenes/Stress/Intro.unity
     guid: 104455640a0236b4c9443990ee5ab727
