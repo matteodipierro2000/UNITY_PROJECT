@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11b53f869d54cd04b966a48658716996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: Find Tom
+  sceneNameToLoad: Dialog 13 (wood) post quiz 3 c
 --- !u!114 &37256714
 MonoBehaviour:
   m_ObjectHideFlags: 0

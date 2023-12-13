@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 86007900}
   - component: {fileID: 86007899}
   - component: {fileID: 86007898}
-  - component: {fileID: 86007901}
+  - component: {fileID: 86007902}
   m_Layer: 0
   m_Name: star
   m_TagString: Untagged
@@ -253,7 +253,7 @@ Transform:
   - {fileID: 665714708}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &86007901
+--- !u!114 &86007902
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -262,11 +262,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 86007897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da957a17284afb14d93af02622482e38, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f46de2e597ea68429e74a2aae3903c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   question_mark: {fileID: 665714707}
-  gameController: {fileID: 1461406696}
+  gameController: {fileID: 1461406698}
 --- !u!1 &295189942
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,8 +509,8 @@ GameObject:
   m_Component:
   - component: {fileID: 485132315}
   - component: {fileID: 485132314}
-  - component: {fileID: 485132313}
   - component: {fileID: 485132312}
+  - component: {fileID: 485132316}
   m_Layer: 0
   m_Name: Button-Restart_0
   m_TagString: Untagged
@@ -555,20 +555,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 4.92, y: 2.14}
   m_Direction: 1
---- !u!114 &485132313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485132311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd30f74bd3b05ae478575e80e7445e81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameController: {fileID: 1461406696}
-  functionOnClick: Restart
 --- !u!212 &485132314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -636,6 +622,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &485132316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485132311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb384c99f53c9b6448570b4ae17be317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 1461406698}
+  functionOnClick: Restart
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e58c1b24d8b533b4b9b1a3904fdb659f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: memories
+  sceneNameToLoad: memories c
 --- !u!1 &1289284712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1461406697}
-  - component: {fileID: 1461406696}
+  - component: {fileID: 1461406698}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1297,50 +1297,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1461406696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461406695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0bb370d552038e41865a26edd3a0e13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startObject: {fileID: 86007901}
-  images:
-  - {fileID: -5842475909189783938, guid: 0136bc7cd74ff9043b3256130beb4dbd, type: 3}
-  - {fileID: 5624180259456911083, guid: 76b064352faf334499187e4c032172ce, type: 3}
-  - {fileID: -248211156816879207, guid: 544fb02dea502ed449e8b91eb941f0ad, type: 3}
-  - {fileID: -6592924947871318469, guid: 1a1cc785885f439489457beab44160f2, type: 3}
-  - {fileID: 8172303097353494086, guid: 26a2c06658aaa8049a791359ac38a689, type: 3}
-  - {fileID: 8043091600683127539, guid: dcc22d3c4e25ff04cb444406dbe30d52, type: 3}
-  - {fileID: 9028963722501198476, guid: d4ef54e5d11b7ab45b13de61aac5844d, type: 3}
-  - {fileID: 199918378509569974, guid: cddff9e676dfaf94c8ba09d24fec2458, type: 3}
-  - {fileID: -3688884400406767279, guid: bbf69c2f45b46d7478e994f0c1b0237c, type: 3}
-  - {fileID: 2144869783910159653, guid: 57a648af4709deb458efba3d3be02a19, type: 3}
-  - {fileID: 3914396993512256154, guid: eaea3696c687b12478e67613731e343c, type: 3}
-  - {fileID: 1100434157263796016, guid: d2075153035258f4f9340e6f70215bf1, type: 3}
-  - {fileID: -138001576243166955, guid: 77f3f202394d5394c8b4264b15b64f46, type: 3}
-  - {fileID: -5890828503606760369, guid: 2f018acfae670b84192e067da67c0132, type: 3}
-  - {fileID: 4108328028427509559, guid: d62234afc3e46d148a20a9b51656d88a, type: 3}
-  - {fileID: -6302563758487680414, guid: e21b2179be2c481449555bd5b3b811b9, type: 3}
-  - {fileID: -3567743228427313100, guid: 50c049a6d0a7e754d88d8586b0537c72, type: 3}
-  - {fileID: 1973106981360765924, guid: 042523bbe08fcc54686141786eda9039, type: 3}
-  - {fileID: 2727363536787704940, guid: e48074a0d92e0f549becff8703e24df0, type: 3}
-  - {fileID: -9222468114620654908, guid: 739cc822177556049b2b2ac8b66529b4, type: 3}
-  win: {fileID: 896123883}
-  lose: {fileID: 1501132827}
-  Win_text: {fileID: 2124869367}
-  lose_text: {fileID: 295189942}
-  restart_button: {fileID: 485132311}
-  SkyPia_button: {fileID: 1072799472}
-  keys: 0
-  score: 0
-  scoreText: {fileID: 2078849861}
-  attemptsText: {fileID: 1385228343}
 --- !u!4 &1461406697
 Transform:
   m_ObjectHideFlags: 0
@@ -1356,6 +1312,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1461406698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461406695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db215612e9fb1a14f8d2caf2c4aec460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startObject: {fileID: 86007902}
+  images:
+  - {fileID: 8172303097353494086, guid: 26a2c06658aaa8049a791359ac38a689, type: 3}
+  - {fileID: 8043091600683127539, guid: dcc22d3c4e25ff04cb444406dbe30d52, type: 3}
+  - {fileID: 9028963722501198476, guid: d4ef54e5d11b7ab45b13de61aac5844d, type: 3}
+  - {fileID: 199918378509569974, guid: cddff9e676dfaf94c8ba09d24fec2458, type: 3}
+  - {fileID: -3688884400406767279, guid: bbf69c2f45b46d7478e994f0c1b0237c, type: 3}
+  - {fileID: -5842475909189783938, guid: 0136bc7cd74ff9043b3256130beb4dbd, type: 3}
+  - {fileID: 2144869783910159653, guid: 57a648af4709deb458efba3d3be02a19, type: 3}
+  - {fileID: 3914396993512256154, guid: eaea3696c687b12478e67613731e343c, type: 3}
+  - {fileID: 1100434157263796016, guid: d2075153035258f4f9340e6f70215bf1, type: 3}
+  - {fileID: -138001576243166955, guid: 77f3f202394d5394c8b4264b15b64f46, type: 3}
+  - {fileID: -5890828503606760369, guid: 2f018acfae670b84192e067da67c0132, type: 3}
+  - {fileID: 4108328028427509559, guid: d62234afc3e46d148a20a9b51656d88a, type: 3}
+  - {fileID: -6302563758487680414, guid: e21b2179be2c481449555bd5b3b811b9, type: 3}
+  - {fileID: -3567743228427313100, guid: 50c049a6d0a7e754d88d8586b0537c72, type: 3}
+  - {fileID: -6592924947871318469, guid: 1a1cc785885f439489457beab44160f2, type: 3}
+  - {fileID: 1973106981360765924, guid: 042523bbe08fcc54686141786eda9039, type: 3}
+  - {fileID: 2727363536787704940, guid: e48074a0d92e0f549becff8703e24df0, type: 3}
+  - {fileID: -9222468114620654908, guid: 739cc822177556049b2b2ac8b66529b4, type: 3}
+  - {fileID: -248211156816879207, guid: 544fb02dea502ed449e8b91eb941f0ad, type: 3}
+  - {fileID: 5624180259456911083, guid: 76b064352faf334499187e4c032172ce, type: 3}
+  win: {fileID: 896123883}
+  lose: {fileID: 1501132827}
+  Win_text: {fileID: 2124869367}
+  lose_text: {fileID: 295189942}
+  restart_button: {fileID: 485132311}
+  SkyPia_button: {fileID: 1072799472}
+  keys: 0
+  score: 0
+  scoreText: {fileID: 2078849861}
+  attemptsText: {fileID: 1385228343}
 --- !u!1 &1501132827
 GameObject:
   m_ObjectHideFlags: 0

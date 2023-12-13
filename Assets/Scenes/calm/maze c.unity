@@ -822,9 +822,9 @@ GameObject:
   m_Component:
   - component: {fileID: 187405815}
   - component: {fileID: 187405814}
-  - component: {fileID: 187405816}
   - component: {fileID: 187405818}
   - component: {fileID: 187405817}
+  - component: {fileID: 187405819}
   m_Layer: 0
   m_Name: astronauta_0
   m_TagString: Untagged
@@ -899,25 +899,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &187405816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187405813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e85a28a8c0076c749aea32569cd0e74e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fire1: {fileID: 2060093512}
-  fire2: {fileID: 111357547}
-  fire3: {fileID: 1452102261}
-  wwin: {fileID: 43991002}
-  llose: {fileID: 383209913}
-  timerText: {fileID: 604679267}
-  maze_win_text: {fileID: 1113484400}
 --- !u!61 &187405817
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -991,6 +972,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &187405819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187405813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f1d344102265d4b842baa3ed19784d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fire1: {fileID: 2060093512}
+  fire2: {fileID: 111357547}
+  fire3: {fileID: 1452102261}
+  wwin: {fileID: 43991002}
+  llose: {fileID: 383209913}
+  timerText: {fileID: 604679267}
+  maze_win_text: {fileID: 1113484400}
 --- !u!1 &202496492
 GameObject:
   m_ObjectHideFlags: 0
